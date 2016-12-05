@@ -22,7 +22,6 @@ foreach ( $json['data'] as $data ) {
 	if ($data['age'] == $age) {
 	$exp = $data['exp'];
 	}
-	
 }
 
 $days_number = date('z') + 1; 
@@ -47,5 +46,6 @@ $weekends = $exp * 52;
 <p>Inspired by Trent Walton's blog post <a href ="http://trentwalton.com/2011/01/26/you-are-what-you-eat/">You Are What You Eat</a>.</p>
 <p>Created by <a href ='https://kmarsden.com'>Kevin Marsden</a></p>
 </div><!-- end footer div -->
+
 </body>
 </html>
