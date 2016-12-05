@@ -127,9 +127,14 @@ input[type="submit"]:hover {
 
 body {	
 	/*rgba(254,254,254,0.81); */
-	background-color:rgba(23,    75,    108, 0.66);
+	background-color:rgba(251, 251, 251, 1);
 	color: #333;
 	font-family:'Open Sans', Helvetica, Arial, san-serif;
+}
+
+.days-to-go p {
+  line-height: 1.5em;
+  padding-bottom: 1em;
 }
   
 #result {
@@ -147,7 +152,7 @@ body {
 	color: #4c4c4c;
 	font-size: 1em;
 	padding: 20px;
-	margin: 20px;
+	/*margin: 20px;*/
 	line-height: 1.5em;
 	border-top: 1px solid #8d8d8d;
 }
