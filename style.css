@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End CSS Reset*/
+
+
+
+.radio-toolbar input[type="radio"] {
+    display:none;
+    padding: 50px;
+}
+
+.radio-toolbar label {
+    display:inline-block;
+    background-color:#ddd;
+    padding:4px 30px;
+    margin: 0px 7px;
+    font-family:'Open Sans', Helvetica, Arial, san-serif;
+    font-size:4em;
+    font-weight: 600;
+    min-width: 200px;
+    text-align: center;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#ddd;
+    border-width: medium;
+    border-style: solid;
+    border-color: #fd7b3a;
+}
+
+
+
+#form {
+	margin-top: 50px;
+	text-align: center;	
+	font-family:'Open Sans', Helvetica, Arial, san-serif;
+	font-weight: 400;
+	box-shadow: 0px 0px 0px white;
+	border: none;
+
+}
+
+input, textarea {
+	margin: 7px;
+	font-size: 4.0em;
+	font-family:'Open Sans', Helvetica, Arial, san-serif;
+	font-weight: 600;
+	text-align: center;
+	min-width:  650px;
+	background-color: #ddd;
+	border: none;
+}
+
+input:focus, textarea:focus {  
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+#radio1, #radio2, #submit {
+	color: #333;
+	font-family:'Open Sans', Helvetica, Arial, san-serif;
+	font-weight: 600;
+}
+
+input[type="submit"] {
+	color: #333;
+	font-family:'Open Sans', Helvetica, Arial, san-serif;
+	padding-top: 5px;
+	font-weight: 600;
+}
+
+input[type="submit"]:hover {
+	border-color: yellow;
+}
+
+.year, .month, .age{
+	padding: 5px;
+}
+
+
+body {	
+	/*rgba(254,254,254,0.81); */
+	background-color:rgba(23,    75,    108, 0.66);
+	color: #333;
+	font-family:'Open Sans', Helvetica, Arial, san-serif;
+}
+  
+#result {
+	color: #333;
+	font-family:'Overlook', 'Arbutus Slab', Helvetica, Arial, san-serif;
+	padding: 30px;
+	font-size: 3em;
+	margin: 20px;
+	min-height: 1000px;
+	line-height: 1.2em;
+	
+}  
+
+#footer {
+	color: #4c4c4c;
+	font-size: 1em;
+	padding: 20px;
+	margin: 20px;
+	line-height: 1.5em;
+	border-top: 1px solid #8d8d8d;
+}
+
+.number {
+	font-size: 3.5em;	
+	text-align: center;
+	padding: 10px;
+	line-height: 1.5em;
+	
+}
+  
+a:link {
+color:#4c4c4c;
+}      /* unvisited link */
+a:visited {
+color:#4c4c4c;
+
+}  /* visited link */
+a:hover {color:black;}  /* mouse over link */
+a:active {color:black;}  /* selected link */  
+  
